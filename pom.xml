@@ -17,6 +17,7 @@
         <reactor-test.version>3.3.13.RELEASE</reactor-test.version>
         <reactor-core.version>3.3.10.RELEASE</reactor-core.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
+        <blockhound.version>1.0.4.RELEASE</blockhound.version>
     </properties>
 
     <dependencies>
@@ -50,6 +51,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.projectreactor.tools</groupId>
+            <artifactId>blockhound</artifactId>
+            <version>${blockhound.version}</version>
         </dependency>
     </dependencies>
 
